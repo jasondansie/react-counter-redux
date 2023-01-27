@@ -1,0 +1,28 @@
+main .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 250px;
+  height: 250px;
+  background-color: rgb(130, 131, 138);
+  color: white;
+  text-align: center;
+  margin: 6rem 1rem 1rem;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .buttons {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  margin-top: 5vh;
+  justify-content: space-evenly;
+}
